@@ -37,3 +37,8 @@ body {
 header > .container {
     padding: 40px 20px;
 }
+
+header  .container .menu {
+    font-size: 0.875em;
+    text-decoration: none;
+}
