@@ -1,0 +1,39 @@
+/* * - обращение ко всем элементам страницы */
+* {
+    /* Отменет размеры элементов */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "opensans";
+    font-weight: normal;
+    font-style: normal;
+    src: url("../fonts/OpenSans-Regular.ttf")
+}
+
+.container-fluid {
+    width: 100%;
+}
+.container {
+    /* Максимаьная ширина. Нужна для респонсивности(для меньших экранов) */
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* Хидер делаем в строку */
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+body {
+    font-family: "opensans", Arial, Helvetica, sans-serif;
+    width: 100%;
+    font-size: 16px;
+}
+
+header > .container {
+    padding: 40px 20px;
+}

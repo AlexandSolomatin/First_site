@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <link rel="stylesheet" type="text/css" href="css/styles_header_footer.css" />
+</head>
+<body>
+    <!-- header - внешний блок -->
+    <header class="container-fluid">
+       <div class="container d-flex">
+        <img src="image/logo.jpg" alt="logo" width="100px" height="100px">
+        <!-- Вставляем меню в nav. Важно для поисковых систем! -->
+        <nav>
+            <a href="#">Каталог</a>
+            <a href="#">О нас</a>
+            <a href="#">Оплата и доставка</a>
+            <a href="#">Контакты</a>
+        </nav>
+        <!-- Форма поиска. 
+        Отправка методом get!
+        Разница get от post =  -->
+        <form name="search" action="#" method="get">
+            <div>
+                <!-- Надпись внутри окошка -->
+                <input type="text" name="search" placeholder="Поиск по каталогу" />
+                <!-- Кнопка для поиска по каталогу -->
+                <input type="submit" name="search" value="" />
+            </div>
+        </form>
+       </div>
+    </header>
+</body>
+</html>
